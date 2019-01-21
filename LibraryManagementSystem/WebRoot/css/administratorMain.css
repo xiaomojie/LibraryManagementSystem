@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	background-image:url(../image/login.jpg);
+	background-position: center 0; 
+    background-repeat: no-repeat; 
+    background-attachment:fixed; 
+    background-size: cover; 
+    -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */ 
+    -o-background-size: cover;/* 兼容Opera */ 
+}
+button{
+	margin-Top:100px;
+	width:100px;
+	height:100px;
+	font-size:10px;
+	margin-left:200px;
+    
+}
+h1{
+	margin-Top:10px;
+	margin-left:10px;
+}

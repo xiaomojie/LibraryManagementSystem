@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0px;
+	text-align: center;
+	padding-Top: 210px;
+	background-image: url(../image/login.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover; /* 兼容Webkit内核浏览器如Chrome和Safari */
+	-o-background-size: cover; /* 兼容Opera */
+}
+.loginBtn {
+	width:80px; margin-left:50px
+	margin-right:11px;
+	background:#0091e6;
+	border: none;
+	outline: none;
+	padding:8px 30px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 0.9em;
+	border-radius: .3em;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	-o-border-radius: .3em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-weight: 600;
+	margin: 0 auto;
+}
+.loginBtn:hover {
+	background: #C5C5C5;
+}
+.userid,.password {
+	
+	width: 200px
+}
+.insert {
+	width:300px;
+	position: relative;
+	background: #fff;
+	padding: 2.5em;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	box-shadow: 0px 0px 15px #545454;
+}
+
+
+

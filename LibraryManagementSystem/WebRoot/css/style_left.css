@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+body {
+	width: 1300px;
+	height: 700px;
+	background:url(../image/reader_bcg.jpg) center no-repeat;
+	margin: 10px auto;
+}
+.sysleft {
+    height: 500px;
+	margin-left:10px;
+	width: 182px;
+	background: #30383b; /*border-left:2px solid #76af46;*/
+	padding: 10px 0 0 0px;
+}
+.sysleft ul li {
+	list-style-type:none;
+	height: 48px;
+}
+
+.sysleft ul li a {
+	text-decoration:none;
+	height: 48px;
+	width: 126px;
+	border-left: 4px solid #30383b;
+	background: #30383b;
+	color: #697d84;
+	display: block;
+	padding-left: 10px;
+	line-height: 48px;
+}
+
+.sysleft ul li a:hover {
+	height: 48px;
+	width: 117px;
+	border-left: 4px solid #77b049;
+	background: #282d31;
+	color: #77b049;
+	display: block;
+	padding-left: 20px;
+	line-height: 48px;
+}
+
+
+

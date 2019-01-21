@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+body {
+	width: 1300px;
+	height: 700px;
+	background:url(../image/reader_bcg.jpg) center no-repeat;
+	margin: 10px auto;
+}
+.syshead {
+	margin-left:10px;
+	height: 110px;
+	background: #3c4145;
+	padding: 10px 0 0 20px;
+}
+
+.syshead .left {
+	color: #fff;
+	float: left;
+	width: 263px;
+	height: 44px;
+}
+
+.syshead p.right {
+	float: right;
+	height: 44px;
+	line-height: 44px;
+	margin-right:10px
+}
+
+.syshead p.right span {
+	color: #fff;
+	margin: 0px 5px;
+}
+
+.syshead  p.right a.username {
+	margin: 0px 5px;
+	color: #fb9d00;
+	text-decoration:none
+}
+.syshead  p.right a.changePassword {
+	margin: 0px 5px;
+	color: #fff;
+	text-decoration:none
+}
+.syshead  p.right a.outsys {
+	color: #fff;
+}
+
+.syshead p.right a.outsys img {
+	vertical-align: middle;
+	margin-right: 2px;
+}}

@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 1325px;
+	height: 1300px;
+	background: url(../image/login.jpg) center repeat;
+	margin: 5px 5px 5px 5px;
+}
+
+.syshead {
+	margin-left: 10px;
+	height: 84px;
+	background: #3c4135;
+	padding: 10px 0 0 20px;
+}
+
+.syshead .left {
+	float: left;
+	color: #fff;
+	float: left;
+	width: 263px;
+	height: 44px;
+}
+
+.syshead p.right {
+	float: right;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 10px
+}
+
+.syshead p.right span {
+	color: #fff;
+	margin: 0px 5px;
+}
+
+.syshead  p.right a.username {
+	margin: 0px 5px;
+	color: #fb9d00;
+	text-decoration: none
+}
+
+.syshead  p.right a.changePassword {
+	margin: 0px 5px;
+	color: #fff;
+	text-decoration: none
+}
+
+.syshead  p.right a.outsys {
+	color: #fff;
+}
+
+.syshead p.right a.outsys img {
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.content {
+	margin-left: 10px;
+	float: left;
+	width: 1325px;
+	height: 90%;
+}
+
+.content .sysleft {
+	float: left;
+	width: 15%;
+	height: 100%;
+	background: #30383b; /*border-left:2px solid #76af46;*/
+	padding: 10px 0 0 0px;
+}
+
+.content .sysleft ul li {
+	list-style-type: none;
+	height: 48px;
+	width: 100%;
+}
+
+.content .sysleft ul li a {
+	text-decoration: none;
+	height: 48px;
+	width: 126px;
+	border-left: 4px solid #30383b;
+	background: #30383b;
+	color: #697d84;
+	display: block;
+	padding-left: 10px;
+	line-height: 48px;
+}
+
+.content .sysleft .menu li a:hover {
+	height: 48px;
+	width: 117px;
+	border-left: 4px solid #77b049;
+	background: #282d31;
+	color: #77b049;
+	display: block;
+	padding-left: 20px;
+	line-height: 48px;
+}
+
+
+
+.content .sysright {
+	float: left;
+	background: #fff;
+	width: 84%;
+	height: 100%
+}

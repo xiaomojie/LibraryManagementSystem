@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.table{
+	background-color:#c0c0c0
+}
+.head{
+	background-color:#aedaaa;
+	 width:400px; height:60px; font-size:35px;
+}
+.row{
+	width:100px;
+	 height:30px;
+	  font-size:20px;
+}
+.col{
+	width:250px; height:25px;
+}
+.select{
+	width:150px; height:25px;
+}
+.btn {
+	width:80px; 
+	margin-right:11px;
+	background:#0091e6;
+	border: none;
+	outline: none;
+	padding:8px 20px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 0.9em;
+	border-radius: .3em;
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	-o-border-radius: .3em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-weight: 600;
+	margin: 0 auto;
+}
+.btn:hover {
+	background: #C5C5C5;
+}
